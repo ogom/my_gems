@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe MyGems do
   describe MyGems::FizzBuzz do
     describe '#say' do
