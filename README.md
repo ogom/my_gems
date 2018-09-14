@@ -1,8 +1,8 @@
 # MyGems
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/my_gems`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://travis-ci.org/ogom/my_gems.svg?branch=master)](https://travis-ci.org/ogom/my_gems)
 
-TODO: Delete this and the text above, and describe your gem
+An example of Fizz Buzz.
 
 ## Installation
 
@@ -14,15 +14,22 @@ gem 'my_gems'
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install my_gems
+```
+$ gem install my_gems
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+fizz_buzz = MyGems::FizzBuzz.new(3)
+fizz_buzz.say # "Fizz"
+```
 
 ## Development
 
@@ -32,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/my_gems.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ogom/my_gems.
 
 ## License
 
