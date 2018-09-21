@@ -16,7 +16,8 @@ module MyGems
       @number.to_s
     end
 
-    def saysay
+    def saysaysay
+      3
     end
   end
 end
