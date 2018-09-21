@@ -1,6 +1,6 @@
 # MyGems
 
-[![Build Status](https://travis-ci.org/ogom/my_gems.svg?branch=master)](https://travis-ci.org/ogom/my_gems)
+[![CircleCI](https://circleci.com/gh/ogom/my_gems.svg?style=svg)](https://circleci.com/gh/ogom/my_gems)
 
 An example of Fizz Buzz.
 
