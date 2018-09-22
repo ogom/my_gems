@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - "Guardfile"
+    - "*.gemspec"
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
