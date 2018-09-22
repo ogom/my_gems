@@ -5,6 +5,17 @@ RSpec.describe MyGems do
   describe MyGems::FizzBuzz do
     describe '#say' do
       let(:fizz_buzz) { described_class.new(number) }
+      subject { fizz_buzz.saysaysay }
+
+      let(:number) { 3 }
+      example '3 という' do
+        expect(subject).to eq 'さん'
+      end
+    end
+
+
+    describe '#say' do
+      let(:fizz_buzz) { described_class.new(number) }
       subject { fizz_buzz.say }
 
       context '３で割り切れる場合' do

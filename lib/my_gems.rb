@@ -19,5 +19,27 @@ module MyGems
     def saysaysay
       3
     end
+
+    def saysaysaysay
+      if true
+        if true
+          if true
+            if true
+              if true
+                if true
+                  if true
+                    if true
+                      if true
+          4
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end  
+        end
+      end
+    end
   end
 end
