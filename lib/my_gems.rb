@@ -16,10 +16,6 @@ module MyGems
       @number.to_s
     end
 
-    def saysaysay
-      3
-    end
-
     def saysaysaysay
       if true
         if true
