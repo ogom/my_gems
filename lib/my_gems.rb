@@ -16,7 +16,7 @@ module MyGems
       @number.to_s
     end
 
-    def saysaysaysay
+    def saysaysay
       if true
         if true
           if true
@@ -26,7 +26,7 @@ module MyGems
                   if true
                     if true
                       if true
-          4
+                        3
                       end
                     end
                   end
