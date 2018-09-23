@@ -1,5 +1,13 @@
-require "my_gems/version"
+require 'my_gems/version'
 
 module MyGems
-  # Your code goes here...
+  class FizzBuzz
+    def initialize(number)
+      @number = number
+    end
+
+    def say
+      ''
+    end
+  end
 end
