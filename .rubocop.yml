@@ -1,15 +1,15 @@
+# To use the MeowCop gem.
+inherit_gem:
+  meowcop:
+    - config/rubocop.yml
+
+# Modify the version if you don't use MRI 2.6.
 AllCops:
+  TargetRubyVersion: 2.6
   Exclude:
-    - "bin/*"
-    - "spec/spec_helper.rb"
-    - "Guardfile"
-    - "Gemfile"
     - "*.gemspec"
-    - "Rakefile"
-
-Style/Documentation:
-  Enabled: false
-
-Metrics/BlockLength:
-  Exclude:
-    - "spec/**/*"
+# You can customize rubocop settings.
+# For example.
+# Style/FrozenStringLiteralComment:
+#   Enabled: true
+#   EnforcedStyle: always
